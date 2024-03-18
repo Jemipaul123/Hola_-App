@@ -15,3 +15,18 @@ Welcome to Hola app! This Flutter project is a social media app that allows user
 
 - **Flutter:** The app is built using the Flutter framework, allowing for cross-platform development with a single codebase.
 - **Firebase:** Firebase is utilized for backend services, including user authentication, database storage, and real-time updates for tweets and user interactions.
+
+- ## Contributions
+
+Contributions to hola_app are welcome! To contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature`)
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add feature'`)
+5. Push to the branch (`git push origin feature`)
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the app according to the terms of the license.
