@@ -50,18 +50,18 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB3vR-Pmz83FpCU0A_zQ8cT45rEOKEMtZw',
-    appId: '1:674428803178:android:2eb816ffa61536ea515213',
-    messagingSenderId: '674428803178',
-    projectId: 'hola-app-711c0',
+    apiKey: API.env,
+   appId:API_ID.env,
+    messagingSenderId: ID.env,
+    projectId: PROJ_ID.env,
     storageBucket: 'hola-app-711c0.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCxiRvzp_HyqM_Bm9is_48ElFnxe3TECsI',
-    appId: '1:674428803178:ios:80a435eb6e86e594515213',
-    messagingSenderId: '674428803178',
-    projectId: 'hola-app-711c0',
+    apiKey: API.env,
+    appId:API_ID.env,
+    messagingSenderId:ID.env ,
+    projectId: PROJ_ID.env,
     storageBucket: 'hola-app-711c0.appspot.com',
     iosBundleId: 'com.example.holaApp',
   );
